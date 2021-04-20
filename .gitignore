@@ -1,14 +1,39 @@
-# Compiled class file
-*.class
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!/src/main/
+!/src/test/
 
-# Log file
-*.log
+STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# BlueJ files
-*.ctxt
+IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+VS Code
+.vscode/
+
+# Volumes #
+kafka/
+zookeeper/
+mongo/
 
 # Package Files #
 *.jar
@@ -19,8 +44,8 @@
 *.tar.gz
 *.rar
 
-# IntelliJ IDEA
-.idea
-*.iws
-*.iml
-*.ipr
+# Compiled class file
+*.class
+
+# Log file
+*.log
