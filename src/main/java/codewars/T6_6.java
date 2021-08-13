@@ -11,7 +11,7 @@ public class T6_6 {
     public static int[] sumParts(int[] ls) {
         List<Integer> aList = Arrays.stream(ls).boxed().collect(Collectors.toList());
         int[] arr = new int[ls.length + 1];
-        int suma = 0, index = 0;
+        int suma = 0;
         suma = aList.stream().reduce(0, Integer::sum);
         arr[0] = suma;
         for (int i = 1; i < ls.length; i++) {
