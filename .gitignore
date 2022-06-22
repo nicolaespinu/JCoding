@@ -49,3 +49,6 @@ mongo/
 
 # Log file
 *.log
+.gitignore
+AAA.java
+src/main/java/leetcode/MergeTwoSortedLists.java
