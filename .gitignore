@@ -3,6 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !/src/main/
 !/src/test/
+/src/main/java/a_interview_prep
 
 STS
 .apt_generated
